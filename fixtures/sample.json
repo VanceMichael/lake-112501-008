@@ -1,5 +1,30 @@
 {
   "说明": "本地合成演练资料",
   "业务对象": "跨币种结算明细的可追溯分摊对账",
-  "记录": []
+  "记录": [
+    {
+      "settlement_id": "ST-1",
+      "package": "PK-1",
+      "channel": "direct",
+      "date": "2026-10-12",
+      "currency": "CNY",
+      "amount": "12.30"
+    },
+    {
+      "settlement_id": "ST-2",
+      "package": "PK-2",
+      "channel": "partner",
+      "date": "2026-10-12",
+      "currency": "USD",
+      "amount": "3.10"
+    },
+    {
+      "settlement_id": "ST-2",
+      "package": "PK-2",
+      "channel": "partner",
+      "date": "2026-10-12",
+      "currency": "USD",
+      "amount": "3.10"
+    }
+  ]
 }
